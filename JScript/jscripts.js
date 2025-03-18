@@ -77,6 +77,16 @@ var cxTexto = document.getElementById("cxTexto");
         ]
     };
 
+    horoscopos["touro"] = horoscopos["touros"];
+    horoscopos["gêmeos"] = horoscopos["gemeos"];
+    horoscopos["câncer"] = horoscopos["cancer"];
+    horoscopos["leão"] = horoscopos["leao"];
+    horoscopos["escorpião"] = horoscopos["escorpiao"];
+    horoscopos["sagitário"] = horoscopos["sagitario"];
+    horoscopos["capricórnio"] = horoscopos["capricornio"];
+    horoscopos["aquário"] = horoscopos["aquario"];
+    horoscopos["peixes"] = horoscopos["peixes"];
+
 function mostrarHoroscopo() {
     var signo = cxTexto.value.toLowerCase().trim(); // Normaliza a entrada do usuário
 
