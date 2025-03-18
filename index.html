@@ -8,13 +8,15 @@
 </head>
 <body>
     <div class="banner">
-                <video  autoplay type="video/mp4" loop id="video"> <source src="./Imagens/Video/12182831-uhd_3840_2160_24fps.mp4"> </video>
+                <video  autoplay muted loop type="video/mp4" id="video"> <source src="./Imagens/Video/12182831-uhd_3840_2160_24fps.mp4"> </video>
 
         <div class="content">
                     <h1>Horoscope for day.</h1>
                       <p>Enter your sign</p>
                     
-                    <input type="search" id="cxTexto" class="cxTexto"> <button onclick="mostrarHoroscopo()" class="enviarBtn">Enviar</button>
+                    <input type="search" id="cxTexto" class="cxTexto"> 
+                    
+                    <button onclick="mostrarHoroscopo()" class="enviarBtn">Enviar</button>
                 
                     <div class="mensagem"> 
                      <p  id="mensagem"></p>

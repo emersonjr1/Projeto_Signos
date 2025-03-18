@@ -69,8 +69,8 @@ body{
     
 }
 
-#mensagem{
-    font-size: 40px;
+#mensagem {
+    font-size: 3vw; /* Make the font size responsive */
 }
 
 .enviarBtn:hover { 

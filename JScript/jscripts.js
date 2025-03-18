@@ -1,6 +1,5 @@
 var msgAparecer = document.getElementById("mensagem");
 var cxTexto = document.getElementById("cxTexto");
-
  
     var horoscopos = {
         aries: [
@@ -87,6 +86,7 @@ var cxTexto = document.getElementById("cxTexto");
     horoscopos["aquário"] = horoscopos["aquario"];
     horoscopos["peixes"] = horoscopos["peixes"];
 
+
 function mostrarHoroscopo() {
     var signo = cxTexto.value.toLowerCase().trim(); // Normaliza a entrada do usuário
 
@@ -98,4 +98,5 @@ function mostrarHoroscopo() {
         msgAparecer.innerText = "Signo inválido! Digite corretamente.";
     }
 };
+ 
  
